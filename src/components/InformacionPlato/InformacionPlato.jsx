@@ -1,16 +1,11 @@
 import { memo } from 'react';
-import type { FC } from 'react';
 
 import resets from '../_resets.module.css';
-import { Edit2Icon } from './Edit2Icon.js';
 import classes from './InformacionPlato.module.css';
 import { Rectangle2Icon } from './Rectangle2Icon.js';
 
-interface Props {
-  className?: string;
-}
 /* @figmaId 688:4311 */
-export const Frame97: FC<Props> = memo(function Frame97(props = {}) {
+export const Frame97= memo(function Frame97() {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.salchipapa}>Salchipapa</div>
